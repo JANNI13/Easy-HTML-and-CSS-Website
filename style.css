@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', Arial;
+}
+
+span{
+    color: black;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+        
+.nav-bar{
+    color: blue;
+    list-style-type: none;
+    float:  right;
+    background-color: whitesmoke;
+    height: 30px;
+    font-weight: 600    ;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+
+li{
+    padding-left: 10px;
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+    background-color: lightgrey;
+    box-shadow: 1px 1px 5px;
+}
+
+.text-vorstellen{
+    float: right;
+}
+
+.auflistung{
+    float: left;
+    position: absolute;
+    top: 50px;
+}
